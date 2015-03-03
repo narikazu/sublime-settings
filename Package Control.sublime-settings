@@ -1,0 +1,47 @@
+{
+	"auto_upgrade_last_run": null,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Abacus",
+		"AdvancedNewFile",
+		"Alignment",
+		"All Autocomplete",
+		"ApplySyntax",
+		"AutoFileName",
+		"Better CoffeeScript",
+		"BracketHighlighter",
+		"CoffeeScript",
+		"CTags",
+		"Dotfiles Syntax Highlighting",
+		"ERB Snippets",
+		"GitGutter",
+		"HTML5",
+		"jQuery",
+		"Markdown Extended",
+		"Markdown Preview",
+		"Origami",
+		"Package Control",
+		"Phpcs",
+		"RecentActiveFiles",
+		"RSpec",
+		"rspec-snippets",
+		"RuboCop",
+		"Ruby Block Converter",
+		"Ruby on Rails snippets",
+		"RubyTest",
+		"SCSS",
+		"Search in Project",
+		"Select Quoted",
+		"SideBarEnhancements",
+		"Simple Rails Navigator",
+		"Solarized Color Scheme",
+		"Sublime Files",
+		"SublimeERB",
+		"SublimeLinter",
+		"Surround",
+		"TrailingSpaces"
+	]
+}
