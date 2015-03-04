@@ -1,4 +1,5 @@
 {
+    "highlight_line": true,
 	"caret_style": "smooth",
 	"color_scheme": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
 	"draw_minimap_border": false,
