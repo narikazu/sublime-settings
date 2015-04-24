@@ -30,6 +30,7 @@
 	"font_face": "Ricty",
 	"font_size": 14.0,
 	"highlight_line": true,
+	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"ASP",
