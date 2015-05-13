@@ -4,7 +4,7 @@
       { "key": "selector", "operator": "equal", "operand": "text.html.ruby, text.haml, source.yaml, source.css, source.scss, source.js, source.coffee" }
     ]
   },
-
+  { "keys": ["super+t"], "command": "reopen_last_file" },
   { "keys": ["super+]"], "command": "indent" },
   { "keys": ["super+["], "command": "unindent" },
 
