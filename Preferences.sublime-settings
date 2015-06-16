@@ -46,7 +46,8 @@
 		"OCaml",
 		"C++",
 		"Lua",
-		"Matlab"
+		"Matlab",
+		"ApplySyntax"
 	],
 	"indent_guide_options":
 	[
