@@ -26,7 +26,11 @@
 		"資料",
 		"system",
 		"tmp",
-		"uploads"
+		"uploads",
+		"cache",
+		"vendor/bundle/extensions",
+		"vendor/bundle/build_info",
+		"log"
 	],
 	"font_face": "Ricty",
 	"font_size": 14.0,
