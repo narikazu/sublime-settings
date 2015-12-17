@@ -9,6 +9,7 @@
 	"file_exclude_patterns":
 	[
 		"*.psd",
+		"*.pdf",
 		"*.jpg",
 		"*.gif",
 		"*.png",
