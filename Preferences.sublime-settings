@@ -40,6 +40,7 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"ActionScript",
 		"ASP",
 		"C#",
 		"C++",
@@ -49,6 +50,7 @@
 		"Matlab",
 		"OCaml",
 		"Simple Rails Navigator",
+		"SublimeLinter",
 		"Vintage"
 	],
 	"indent_guide_options":
