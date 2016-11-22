@@ -9,6 +9,7 @@
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
+		"*.rdb",
 		"*.psd",
 		"*.pdf",
 		"*.jpg",
@@ -25,7 +26,6 @@
 	[
 		".git",
 		".bundle",
-		"資料",
 		"system",
 		"tmp",
 		"uploads",
