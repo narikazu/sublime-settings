@@ -21,7 +21,11 @@
 		"*.sublime-*",
 		".DS_Store",
 		".tags",
-		".tags_sorted_by_file"
+		"*.swf",
+		".tags_sorted_by_file",
+		"*.jar",
+		"*.svg",
+		"*.mwb"
 	],
 	"folder_exclude_patterns":
 	[
@@ -33,7 +37,8 @@
 		"cache",
 		"vendor/bundle/extensions",
 		"vendor/bundle/build_info",
-		"log"
+		"log",
+		"coverage"
 	],
 	"font_face": "Ricty",
 	"font_size": 14.0,
