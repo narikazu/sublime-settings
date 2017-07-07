@@ -25,7 +25,8 @@
 		".tags_sorted_by_file",
 		"*.jar",
 		"*.svg",
-		"*.mwb"
+		"*.mwb",
+		"*.bundle"
 	],
 	"folder_exclude_patterns":
 	[
@@ -38,7 +39,9 @@
 		"vendor/bundle/extensions",
 		"vendor/bundle/build_info",
 		"log",
-		"coverage"
+		"coverage",
+		".libs",
+		"*.release"
 	],
 	"font_face": "Ricty",
 	"font_size": 14.0,
