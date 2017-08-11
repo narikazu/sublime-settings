@@ -6,3 +6,5 @@ Package Control.system-ca-bundle
 Package Control.user-ca-bundle
 RubyTest.last-run
 encoding_cache.json
+oscrypto-ca-bundle.crt
+
