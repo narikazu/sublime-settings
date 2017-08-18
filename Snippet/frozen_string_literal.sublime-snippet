@@ -1,7 +1,9 @@
 <snippet>
-  <content>
+  <content><![CDATA[
 # frozen_string_literal: true
-  </content>
+
+
+]]></content>
   <tabTrigger>frozen</tabTrigger>
   <scope>source.ruby</scope>
 </snippet>
