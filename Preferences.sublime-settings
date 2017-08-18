@@ -44,7 +44,7 @@
 		".libs",
 		"*.release"
 	],
-	"font_face": "Ricty",
+	"font_face": "Ricty Diminished",
 	"font_size": 14.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
