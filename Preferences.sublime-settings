@@ -1,5 +1,6 @@
 {
 	"bold_folder_labels": true,
+	"caret_extra_width": 1,
 	"caret_style": "smooth",
 	"close_windows_when_empty": true,
 	"color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
@@ -7,6 +8,7 @@
 	"draw_minimap_border": false,
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
+	"fade_fold_buttons": false,
 	"file_exclude_patterns":
 	[
 		"*.sqlite3",
@@ -68,6 +70,8 @@
 		"draw_normal",
 		"draw_active"
 	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
 	"move_to_limit_on_up_down": true,
 	"reveal-on-activate": true,
 	"show_full_path": true,
@@ -75,9 +79,5 @@
 	"theme": "Cobalt2.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"wide_caret": true,
-	"line_padding_bottom": 1,
-	"line_padding_top": 1,
-	"caret_extra_width": 1,
-	"fade_fold_buttons": false
+	"wide_caret": true
 }
