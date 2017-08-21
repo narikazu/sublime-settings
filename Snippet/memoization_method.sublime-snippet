@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+def ${1:method_name}
+  @${1:method_name} ||= ${2}
+end
+]]></content>
+  <tabTrigger>memoization</tabTrigger>
+  <scope>source.ruby</scope>
+  <description>||=</description>
+</snippet>
