@@ -74,6 +74,10 @@
 	"line_padding_top": 1,
 	"move_to_limit_on_up_down": true,
 	"reveal-on-activate": true,
+	"rulers":
+	[
+		80
+	],
 	"show_full_path": true,
 	"tab_size": 2,
 	"theme": "Cobalt2.sublime-theme",
