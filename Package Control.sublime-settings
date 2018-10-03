@@ -7,7 +7,6 @@
 	],
 	"installed_packages":
 	[
-		"Abacus",
 		"AdvancedNewFile",
 		"All Autocomplete",
 		"ApplySyntax",
@@ -15,7 +14,6 @@
 		"BracketHighlighter",
 		"Case Conversion",
 		"ConvertToUTF8",
-		"CTags",
 		"Dockerfile Syntax Highlighting",
 		"Dotfiles Syntax Highlighting",
 		"FindKeyConflicts",
