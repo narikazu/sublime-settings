@@ -56,6 +56,7 @@
 		"ASP",
 		"C#",
 		"C++",
+		"ConvertToUTF8",
 		"D",
 		"Java",
 		"Lua",
@@ -77,6 +78,7 @@
 	[
 		80
 	],
+	"save_on_focus_lost": true,
 	"show_full_path": true,
 	"tab_size": 2,
 	"theme": "Cobalt2.sublime-theme",
