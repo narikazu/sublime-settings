@@ -50,10 +50,6 @@
   { "keys": ["ctrl+shift+t"], "command": "delete_trailing_spaces" },
   { "keys": ["alt+shift+space"], "command": "expand_selection", "args": {"to": "scope"} },
   { "keys": ["super+shift+o"], "command": "goto_definition" },
-
-  // SublimeSuperNavigator
-  { "keys": ["ctrl+s"], "command": "super_navigate"},
-
   // 単語間を移動
   { "keys": ["alt+b"], "command": "move", "args": {"by": "subwords", "forward": false} },
   { "keys": ["alt+f"], "command": "move", "args": {"by": "subword_ends", "forward": true} },
@@ -66,5 +62,22 @@
   { "keys": ["ctrl+w"], "command": "delete_word", "args": { "forward": false, "sub_words": true } },
   { "keys": ["ctrl+u"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete to BOL.sublime-macro"} },
   // ProjectManager
-  { "keys": ["super+ctrl+o"], "command": "project_manager", "args": { "action": "new" } }
+  { "keys": ["super+ctrl+o"], "command": "project_manager", "args": { "action": "new" } },
+  // Origami
+  { "keys": ["ctrl+x", "0"], "command": "destroy_pane", "args": {"direction": "self"} },
+  {
+    "keys": ["ctrl+x", "1"],
+    "command": "set_layout",
+    "args":
+    {
+      "cols": [0.0, 1.0],
+      "rows": [0.0, 1.0],
+      "cells": [[0, 0, 1, 1]]
+    }
+  },
+  { "keys": ["ctrl+x", "2"], "command": "clone_file_to_pane", "args": {"direction": "up" } },
+  { "keys": ["ctrl+x", "3"], "command": "clone_file_to_pane", "args": { "direction": "right" } },
+  // Case Conversion
+  { "keys": ["ctrl+s"], "command": "toggle_snake_camel_pascal"},
+  { "keys": ["ctrl+shift+u"], "command": "convert_to_screaming_snake"}
 ]
