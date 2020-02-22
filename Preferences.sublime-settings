@@ -28,7 +28,8 @@
 		"*.jar",
 		"*.svg",
 		"*.mwb",
-		"*.bundle"
+		"*.bundle",
+		"*.min.js"
 	],
 	"find_selected_text": true,
 	"folder_exclude_patterns":
@@ -41,13 +42,19 @@
 		"cache",
 		"vendor/bundle/extensions",
 		"vendor/bundle/build_info",
+		"bower_components",
+		"dist",
 		"log",
 		"coverage",
 		".libs",
-		"*.release"
+		"*.release",
+		"node_modules",
+		"debug",
+		".cache"
 	],
 	"font_face": "Ricty Diminished",
 	"font_size": 14.0,
+	"git_diff_target": "head",
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -58,11 +65,14 @@
 		"C++",
 		"ConvertToUTF8",
 		"D",
+		"GitGutter",
 		"Java",
 		"Lua",
 		"Matlab",
 		"OCaml",
+		"Rust",
 		"Simple Rails Navigator",
+		"SublimeLinter",
 		"Vintage"
 	],
 	"indent_guide_options":
