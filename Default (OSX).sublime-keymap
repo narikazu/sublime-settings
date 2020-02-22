@@ -50,6 +50,7 @@
   { "keys": ["ctrl+shift+t"], "command": "delete_trailing_spaces" },
   { "keys": ["alt+shift+space"], "command": "expand_selection", "args": {"to": "scope"} },
   { "keys": ["super+shift+o"], "command": "goto_definition" },
+  { "keys": ["ctrl+i"], "command": "reindent" },
   // 単語間を移動
   { "keys": ["alt+b"], "command": "move", "args": {"by": "subwords", "forward": false} },
   { "keys": ["alt+f"], "command": "move", "args": {"by": "subword_ends", "forward": true} },
@@ -79,5 +80,15 @@
   { "keys": ["ctrl+x", "3"], "command": "clone_file_to_pane", "args": { "direction": "right" } },
   // Case Conversion
   { "keys": ["ctrl+s"], "command": "toggle_snake_camel_pascal"},
-  { "keys": ["ctrl+shift+u"], "command": "convert_to_screaming_snake"}
+  { "keys": ["ctrl+shift+u"], "command": "convert_to_screaming_snake"},
+  // ChangeQuotes
+  { "keys": ["ctrl+shift+'"], "command": "change_quotes"},
+  // ExpandRegion
+  { "keys": ["ctrl+shift+i"], "command": "expand_region" },
+  {
+    "keys": ["super+u"],
+    "command": "expand_region",
+    "args": {"undo": true},
+    "context": [{ "key": "expand_region_soft_undo" }]
+  },
 ]
