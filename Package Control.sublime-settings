@@ -3,7 +3,7 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
-		"Simple Rails Navigator"
+		"Simple Rails Navigator",
 	],
 	"installed_packages":
 	[
@@ -27,6 +27,8 @@
 		"HTML5",
 		"HTMLBeautify",
 		"jQuery",
+		"JSX",
+		"LSP",
 		"Markdown Extended",
 		"MarkdownPreview",
 		"nginx",
@@ -56,6 +58,7 @@
 		"Surround",
 		"Theme - Cobalt2",
 		"TOML",
-		"TrailingSpaces"
-	]
+		"TrailingSpaces",
+		"x86 and x86_64 Assembly",
+	],
 }

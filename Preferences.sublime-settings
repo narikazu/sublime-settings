@@ -2,7 +2,7 @@
 	"bold_folder_labels": true,
 	"caret_extra_width": 1,
 	"caret_style": "smooth",
-	"close_windows_when_empty": true,
+	"close_windows_when_empty": false,
 	"color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
 	"draw_indent_guides": true,
 	"draw_minimap_border": false,
@@ -53,7 +53,7 @@
 		".cache"
 	],
 	"font_face": "Ricty Diminished",
-	"font_size": 14.0,
+	"font_size": 11.0,
 	"git_diff_target": "head",
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
@@ -62,7 +62,6 @@
 		"ActionScript",
 		"ASP",
 		"C#",
-		"C++",
 		"ConvertToUTF8",
 		"D",
 		"GitGutter",
@@ -73,7 +72,7 @@
 		"Rust",
 		"Simple Rails Navigator",
 		"SublimeLinter",
-		"Vintage"
+		"Vintage",
 	],
 	"indent_guide_options":
 	[
@@ -94,5 +93,5 @@
 	"theme": "Cobalt2.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"wide_caret": true
+	"wide_caret": true,
 }
