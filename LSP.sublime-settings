@@ -1,0 +1,35 @@
+// Settings in here override those in "LSP/LSP.sublime-settings",
+
+{
+  "clients":
+  {
+    "rls":
+    {
+      "command":
+      [
+        "/home/kaz/.cargo/bin/rls"
+      ]
+    },
+    "ruby":
+    {
+      "command":
+      [
+        "/home/kaz/.rbenv/shims/solargraph",
+        "stdio"
+      ],
+      "enabled": true,
+      "languageId": "ruby",
+      "scopes":
+      [
+        "source.ruby",
+        "source.ruby.rails"
+      ],
+      "syntaxes":
+      [
+        "Packages/Ruby/Ruby.sublime-syntax",
+        "Packages/Rails/Ruby on Rails.sublime-syntax",
+        "Packages/Rails/HTML (Rails).sublime-syntax"
+      ]
+    }
+  }
+}

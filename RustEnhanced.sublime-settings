@@ -1,0 +1,5 @@
+// These settings override both User and Default settings for the RustEnhanced syntax
+{
+  "tab_size": 4,
+  "rust_syntax_checking": false
+}

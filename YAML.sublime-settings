@@ -1,10 +1,10 @@
 {
-  "spell_check": true,
 	"extensions":
 	[
-		".gemrc",
+		"yml",
 		"yml.dist",
 		"YAML-tmLanguage",
-		"yml"
-	]
+		".gemrc",
+	],
+	"spell_check": true,
 }

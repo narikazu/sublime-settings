@@ -1,11 +1,11 @@
 {
-  "tab_size": 4,
 	"extensions":
 	[
-		"php5",
-		"php4",
+		"php3",
 		"inc",
 		"phtml",
-		"php3"
-	]
+		"php5",
+		"php4",
+	],
+	"tab_size": 4,
 }
