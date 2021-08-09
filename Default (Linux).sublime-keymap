@@ -1575,4 +1575,11 @@
   // RubyBlockConverter
   { "keys": ["ctrl+shift+["], "command": "do_end_to_brace" },
   { "keys": ["ctrl+shift+]"], "command": "brace_to_do_end" },
+
+  { "keys": ["enter"], "command": "select", "args": { "replace": true }, "context":
+    [
+      { "key": "overlay_has_focus", "operator": "equal", "operand": true },
+      { "key": "overlay_name", "operator": "equal", "operand" : "goto" }
+    ],
+  }
 ]
