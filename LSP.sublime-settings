@@ -7,14 +7,14 @@
     {
       "command":
       [
-        "/home/kaz/.cargo/bin/rls"
+        "~/.cargo/bin/rls"
       ]
     },
     "ruby":
     {
       "command":
       [
-        "/home/kaz/.rbenv/shims/solargraph",
+        "~/.rbenv/shims/solargraph",
         "stdio"
       ],
       "enabled": true,
