@@ -1,6 +1,6 @@
 # sublime-settings
 
-# 設定ファイルの位置
+## Location of the setting
 
-* macの場合
- * `~/Library/Application Support/Sublime Text 2/Packages/User`
+* For MacOS
+ * `~/Library/Application Support/Sublime Text/Packages/User`
