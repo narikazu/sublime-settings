@@ -1,6 +1,7 @@
 {
-	"projects_path":
+	/*"projects_path":
 	[
 		"~/sublime_project/"
-	]
+	]*/
+	"projects": "~/sublime_project/",
 }

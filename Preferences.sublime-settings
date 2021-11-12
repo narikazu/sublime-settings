@@ -1,4 +1,5 @@
 {
+	"trim_trailing_white_space_on_save": true,
 	"bold_folder_labels": true,
 	"caret_extra_width": 1,
 	"caret_style": "smooth",
@@ -53,7 +54,7 @@
 		".cache"
 	],
 	"font_face": "Ricty Diminished",
-	"font_size": 11.0,
+	"font_size": 13.0,
 	"git_diff_target": "head",
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
@@ -64,14 +65,16 @@
 		"C#",
 		"ConvertToUTF8",
 		"D",
-		"GitGutter",
 		"Java",
 		"Lua",
 		"Matlab",
 		"OCaml",
+		"PackageResourceViewer",
+		"Ruby on Rails snippets",
 		"Rust",
 		"Simple Rails Navigator",
 		"SublimeLinter",
+		"TrailingSpaces",
 		"Vintage",
 	],
 	"indent_guide_options":
@@ -92,6 +95,6 @@
 	"tab_size": 2,
 	"theme": "Cobalt2.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
+	/*"trim_trailing_white_space_on_save": true,*/
 	"wide_caret": true,
 }
